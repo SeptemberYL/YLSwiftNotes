@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E73297B2D5F44A9002E3249 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7329732D5F44A9002E3249 /* AppDelegate.swift */; };
+		3E73297D2D5F44A9002E3249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7329742D5F44A9002E3249 /* Assets.xcassets */; };
+		3E73297E2D5F44A9002E3249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7329762D5F44A9002E3249 /* LaunchScreen.storyboard */; };
+		3E7329812D5F4548002E3249 /* FocusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7329802D5F4544002E3249 /* FocusController.swift */; };
+		3E7329842D5F4560002E3249 /* FocusHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7329832D5F455D002E3249 /* FocusHelper.swift */; };
+		3E7329872D5F45B7002E3249 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7329862D5F45B4002E3249 /* BaseController.swift */; };
+		BBC4C7EE15E15A5DF3303B5A /* Pods_TVFocusHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3725E0ABF8BC7247660E3235 /* Pods_TVFocusHelper.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3725E0ABF8BC7247660E3235 /* Pods_TVFocusHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVFocusHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E73295F2D5F44A1002E3249 /* TVFocusHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVFocusHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7329732D5F44A9002E3249 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E7329742D5F44A9002E3249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E7329752D5F44A9002E3249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E7329802D5F4544002E3249 /* FocusController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusController.swift; sourceTree = "<group>"; };
+		3E7329832D5F455D002E3249 /* FocusHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusHelper.swift; sourceTree = "<group>"; };
+		3E7329862D5F45B4002E3249 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		89C9FF37FE05D7695B5BD1FC /* Pods-TVFocusHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVFocusHelper.release.xcconfig"; path = "Target Support Files/Pods-TVFocusHelper/Pods-TVFocusHelper.release.xcconfig"; sourceTree = "<group>"; };
+		B43BAB93FFBD940E8ED536A3 /* Pods-TVFocusHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVFocusHelper.debug.xcconfig"; path = "Target Support Files/Pods-TVFocusHelper/Pods-TVFocusHelper.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E73295C2D5F44A1002E3249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC4C7EE15E15A5DF3303B5A /* Pods_TVFocusHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E7329562D5F44A1002E3249 = {
+			isa = PBXGroup;
+			children = (
+				3E73297A2D5F44A9002E3249 /* TVFocusHelper */,
+				3E7329602D5F44A1002E3249 /* Products */,
+				8912963D1F240DB60452FEE5 /* Pods */,
+				86AB06886F586971F243A166 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E7329602D5F44A1002E3249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E73295F2D5F44A1002E3249 /* TVFocusHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E73297A2D5F44A9002E3249 /* TVFocusHelper */ = {
+			isa = PBXGroup;
+			children = (
+				3E7329852D5F45A3002E3249 /* Example */,
+				3E7329822D5F4555002E3249 /* Resource */,
+				3E7329732D5F44A9002E3249 /* AppDelegate.swift */,
+				3E7329742D5F44A9002E3249 /* Assets.xcassets */,
+				3E7329762D5F44A9002E3249 /* LaunchScreen.storyboard */,
+			);
+			path = TVFocusHelper;
+			sourceTree = "<group>";
+		};
+		3E7329822D5F4555002E3249 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3E7329832D5F455D002E3249 /* FocusHelper.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3E7329852D5F45A3002E3249 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				3E7329862D5F45B4002E3249 /* BaseController.swift */,
+				3E7329802D5F4544002E3249 /* FocusController.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		86AB06886F586971F243A166 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3725E0ABF8BC7247660E3235 /* Pods_TVFocusHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8912963D1F240DB60452FEE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B43BAB93FFBD940E8ED536A3 /* Pods-TVFocusHelper.debug.xcconfig */,
+				89C9FF37FE05D7695B5BD1FC /* Pods-TVFocusHelper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E73295E2D5F44A1002E3249 /* TVFocusHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7329702D5F44A3002E3249 /* Build configuration list for PBXNativeTarget "TVFocusHelper" */;
+			buildPhases = (
+				E3A6A598423A7AF1B93C014B /* [CP] Check Pods Manifest.lock */,
+				3E73295B2D5F44A1002E3249 /* Sources */,
+				3E73295C2D5F44A1002E3249 /* Frameworks */,
+				3E73295D2D5F44A1002E3249 /* Resources */,
+				DBF140E0FD88116E84A8416D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVFocusHelper;
+			productName = TVFocusHelper;
+			productReference = 3E73295F2D5F44A1002E3249 /* TVFocusHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E7329572D5F44A1002E3249 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3E73295E2D5F44A1002E3249 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 3E73295A2D5F44A1002E3249 /* Build configuration list for PBXProject "TVFocusHelper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E7329562D5F44A1002E3249;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3E7329602D5F44A1002E3249 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E73295E2D5F44A1002E3249 /* TVFocusHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E73295D2D5F44A1002E3249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E73297D2D5F44A9002E3249 /* Assets.xcassets in Resources */,
+				3E73297E2D5F44A9002E3249 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DBF140E0FD88116E84A8416D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TVFocusHelper/Pods-TVFocusHelper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TVFocusHelper/Pods-TVFocusHelper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TVFocusHelper/Pods-TVFocusHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A6A598423A7AF1B93C014B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TVFocusHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E73295B2D5F44A1002E3249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7329842D5F4560002E3249 /* FocusHelper.swift in Sources */,
+				3E73297B2D5F44A9002E3249 /* AppDelegate.swift in Sources */,
+				3E7329872D5F45B7002E3249 /* BaseController.swift in Sources */,
+				3E7329812D5F4548002E3249 /* FocusController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E7329762D5F44A9002E3249 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E7329752D5F44A9002E3249 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E73296E2D5F44A3002E3249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+			};
+			name = Debug;
+		};
+		3E73296F2D5F44A3002E3249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E7329712D5F44A3002E3249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43BAB93FFBD940E8ED536A3 /* Pods-TVFocusHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		3E7329722D5F44A3002E3249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C9FF37FE05D7695B5BD1FC /* Pods-TVFocusHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E73295A2D5F44A1002E3249 /* Build configuration list for PBXProject "TVFocusHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E73296E2D5F44A3002E3249 /* Debug */,
+				3E73296F2D5F44A3002E3249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7329702D5F44A3002E3249 /* Build configuration list for PBXNativeTarget "TVFocusHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7329712D5F44A3002E3249 /* Debug */,
+				3E7329722D5F44A3002E3249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E7329572D5F44A1002E3249 /* Project object */;
+}
