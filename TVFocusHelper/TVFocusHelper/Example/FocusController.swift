@@ -93,7 +93,9 @@ class BtnFocusController : BaseController {
     @objc func click(_ btn : UIButton){
         // 强行设置聚焦焦点
         switch btn.tag {
+        // 聚焦到第二个按钮
         case 1 : FocusHelper.focusToView(twoBtn)
+        // 聚焦到第三个按钮
         case 2 : FocusHelper.focusToView(threeBtn)
 //        case 2 : FocusHelper.focusToView(fiveBtn)
         case 3 : FocusHelper.focusToView(fourBtn)
