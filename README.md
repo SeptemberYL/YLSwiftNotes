@@ -7,7 +7,7 @@
 每个项目运行前pod install一下就可以运行了
 ```
 
-### TVFocusHelper
+### TVFocusHelper tvos焦点切换
 ```
 // example文件夹中有具体示例
 用于tvos中 焦点切换
@@ -56,4 +56,36 @@ FocusHelper.setControlWith(view: view, toView: twoBtn, backView: oneBtn, type: .
     default : break
     }
 }
+```
+
+### YLHUD 弹窗 loading success fail 三种状态 也可以仅文字提示 banner提示
+加载弹窗,下载YLHUD文件夹下全部文件 并且在podfile文件中
+pod 'SnapKit' # 约束第三方库
+在终端pod install 一下
+
+### SwipeTableViewCell 左滑功能列表
+下载SwipeTableViewCell.swift文件 拉进项目内可以直接使用
+可以继承自定义ui
+```
+    /// 测试按钮
+    lazy var testBtn : UIButton = {
+        let btn = UIButton()
+        btn.backgroundColor = .black.withAlphaComponent(0.8)
+        btn.setTitle("test", for: .normal)
+        btn.addTarget(self, action: #selector(testClick), for: .touchUpInside)
+        btn.setTitleColor(.white, for: .normal)
+        return btn
+    }()
+    
+    // 注册单元格
+    tableView.register(SwipeTableViewCell.self, forCellReuseIdentifier: "SwipeableCell")
+    
+    // 获取复用单元格
+    let cell = tableView.dequeueReusableCell(withIdentifier: "SwipeableCell", for: indexPath) as! SwipeTableViewCell
+    
+    // 配置单元格滑动操作
+    cell.configureSwipeActions(testBtn) {
+        // 设置约束/直接设置frame都可以
+        self.testBtn.frame = CGRect(x: cell.bounds.width, y: 0, width: cell.bounds.height, height: cell.bounds.height)
+    }
 ```
